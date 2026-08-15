@@ -51,7 +51,7 @@ app.get('/api/truecaller', async (req, res) => {
     console.log('📞 Truecaller Search:', cleanNumber);
 
     // ===== CALL THE EXTERNAL TRUECALLER API =====
-    const apiUrl = `https://faisal-ali-truecaller.ftgmhacks.workers.dev/?key=ftgmisking&number=${encodeURIComponent(cleanNumber)}`;
+    const apiUrl = `https://faisal-ali-truecaller.ftgmhacks.workers.dev/?key=ftgm7795caller&number=${encodeURIComponent(cleanNumber)}`;
     console.log('🔄 Calling Truecaller API:', apiUrl);
 
     const response = await axios.get(apiUrl, {
